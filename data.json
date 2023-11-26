@@ -1,0 +1,56 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Good day", "Hey there"],
+            "responses": [
+                "Hello! Welcome to the Child Advisor Chatbot. How can I assist you today?",
+                "Hi there! How can I help you?",
+                "Good day! What questions do you have for me?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "greetingMore",
+            "patterns": ["How are you", "Whats up"],
+            "responses": ["I am fine!, How about you?", "I am good, you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+            "context_set": ""
+        },
+        {
+            "tag": "info",
+            "patterns": ["How can I help my child with time management for school?"],
+            "responses": ["To help your child with time management, encourage them to create a schedule that includes dedicated time for homework, studying, and other activities. Teach them to prioritize tasks, break them down into smaller steps, and set realistic deadlines. Provide guidance and support as they learn to manage their time effectively."],
+            "context_set": ""
+        },
+        {
+            "tag": "reading_skills",
+            "patterns": ["What are some effective ways to improve my child's reading skills?"],
+            "responses": ["To improve your child's reading skills, encourage regular reading habits. Set aside time for reading each day, provide a variety of reading materials that match their interests and reading level, and discuss the books or articles they read. Consider using reading strategies like visualization, summarizing, and asking questions to enhance comprehension."],
+            "context_set": ""
+        },
+        {
+            "tag": "organization",
+            "patterns": ["How can I encourage my child to be more organized with their schoolwork?"],
+            "responses": ["To encourage your child to be more organized, help them establish a system for keeping track of assignments, deadlines, and materials. Teach them to use tools like planners, calendars, or digital apps to stay organized. Set aside regular time to tidy up their study area and teach them the importance of keeping their materials in order."],
+            "context_set": ""
+        },
+        {
+            "tag": "focus",
+            "patterns": ["What are some strategies to help my child stay focused while studying?"],
+            "responses": ["To help your child stay focused while studying, create a conducive environment free from distractions. Encourage them to break their study sessions into manageable chunks with short breaks in between. Teach them concentration techniques like mindfulness or deep breathing exercises. It can also be helpful to discuss goals and rewards to motivate their focus."],
+            "context_set": ""
+        },
+        {
+            "tag": "exam_preparation",
+            "patterns": ["How can I support my child in preparing for exams?"],
+            "responses": ["Supporting your child in preparing for exams involves creating a study plan together. Help them break down the material into smaller sections, set specific study goals, and practice with sample questions or past exams. Encourage them to review regularly rather than cramming at the last minute. Provide emotional support and reassurance during the exam period."],
+            "context_set": ""
+        }
+    ]
+}
